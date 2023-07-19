@@ -1,0 +1,18 @@
+var bankName;
+bankName="SBI Bank";
+console.log("Bank Name =", bankName);
+console.log("The Variable Type of Operator =", typeof bankName);
+var marks='90%';
+console.log("Marks =", marks);
+console.log("The Variable Type of Operator =", typeof marks);
+var isWorking;
+console.log("The Variable Type of Operator =", isWorking);
+isWorking= false;
+console.log("Are You Working? =", isWorking);
+console.log("The Variable Type of Operator =", typeof isWorking);
+var totalCount="Hundred and Seven";
+console.log("Total Count =", totalCount);
+console.log("The Variable Type of Operator =", typeof totalCount);
+totalCount= 107;
+console.log("Total Count =", totalCount);
+console.log("The Variable Type of Operator =", typeof totalCount);
