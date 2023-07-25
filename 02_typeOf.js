@@ -16,3 +16,6 @@ console.log("The Variable Type of Operator =", typeof totalCount);
 totalCount= 107;
 console.log("Total Count =", totalCount);
 console.log("The Variable Type of Operator =", typeof totalCount);
+var salary=null;
+console.log("The Variable Type of Operator =", typeof salary);
+
