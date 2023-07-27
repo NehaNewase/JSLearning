@@ -42,6 +42,5 @@ var result = String(isMarried);
 console.log(`Result is ${result} and it's type is: ${typeof result}` );
 
 
-var result= 'neha' - 'shubham';
-console.log(result);
+
 
