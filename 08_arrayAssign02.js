@@ -76,8 +76,11 @@ console.log(`Is 115 available : ${isAvailable}`);
 
 let isAvailable1 = arrayNumbers.includes(23);
 console.log(`Is 23 available : ${isAvailable1}`);
-
+console.log(arrayNumbers);
 arrayNumbers.splice(3,0,55,66);
+console.log(arrayNumbers);
+
+arrayNumbers.splice(3,1,55,66);
 console.log(arrayNumbers);
 
 
