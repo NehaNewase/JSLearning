@@ -99,8 +99,4 @@ let array4 = [4, 5, 6, 7, 8, 9];
 array4.length = 3;
 console.log(array4);
 
-console.log(`------ spread operator ... ----------`);
-let array5 = [4, 5, 6, 7, 8, 9];
-console.log(array5);
-console.log(...array5);
 

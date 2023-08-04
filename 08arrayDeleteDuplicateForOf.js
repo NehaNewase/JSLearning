@@ -1,10 +1,10 @@
 function unique(arr) {
     const result = [];
   
-    for (let i = 0; i < arr.length - 1; i++) {
+    for (const i of arr) {
       let noRepeat = true;
   
-      for (let j = i + 1; j < arr.length; j++) {
+      for (const j of result) {
         if (i === j) {
           noRepeat = false;
           break;
@@ -19,6 +19,5 @@ function unique(arr) {
     return result;
   }
   
-  // 🎉  [ 1, 3, 2 ]
   console.log(unique([4,5,4,5,8,5,7,8,9,7,8]));
   
