@@ -1,6 +1,7 @@
 function greet(callback){
     console.log(`Good Morning`);
-    callback();
+   callback();
+   
     let inner = function(){
         console.log(`Thank you, I am fine...`);
     }
